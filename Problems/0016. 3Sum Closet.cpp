@@ -11,7 +11,6 @@ public:
                 if (sum == target) {
                     return sum;
                 }
-                // Main thing
                 if (abs(sum - target) < abs(ans - target)) {
                     ans = sum;
                 }
